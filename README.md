@@ -9,6 +9,7 @@
 3. gazebo-plugins
 4. ROS velodyne-description
 ## Commands for building & viewing robot
+
 ### Add the URDF for the robot to default /robot_description location
 `rosparam set /robot_description -t <filename>.urdf`
 
