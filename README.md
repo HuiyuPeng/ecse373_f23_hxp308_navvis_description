@@ -1,11 +1,13 @@
-# A first-level heading
-## A second-level heading
-### A third-level heading
 # ecse373_f23_hxp308_navvis_description
-## Laboratory#2a
-### ROS uses URDF and XACRO(XML-based file types) to describe and create and automate the description of robots. Other utilities in ROS: 
-ROS Neotic
-ROS joint-state-publisher-gui
-gazebo-plugins
-ROS velodyne-description
+# Laboratory #2
+## ROS Description of robots
+1. URDF 
+2. XACRO 
+## Other used utilities in ROS 
+1. ROS Neotic
+2. ROS joint-state-publisher-gui
+3. gazebo-plugins
+4. ROS velodyne-description
+## Commands for building & viewing robot
+
 
