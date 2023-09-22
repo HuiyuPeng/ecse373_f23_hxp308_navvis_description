@@ -9,16 +9,17 @@
 3. gazebo-plugins
 4. ROS velodyne-description
 ## Commands for building & viewing robot
-Add the URDF for the robot to default /robot_description location
->rosparam set /robot_description -t <filename>.urdf
-Run RVIZ with the saved configuration file (run from package root)
->rosrun rviz rviz -d config/config.rviz
+### Add the URDF for the robot to default /robot_description location
+> rosparam set /robot_description -t <filename>.urdf
 
-Make a copy of the existing URDF file
->roscd <package_name>/urdf
->cp <filename>.urdf <filename>.xacro
+### Run RVIZ with the saved configuration file (run from package root)
+> rosrun rviz rviz -d config/config.rviz
 
-Set the /robot_description parameter from XACRO output
->rosparam set /robot_description "'rosrun xacro xacro filename.xacro'"
+### Make a copy of the existing URDF file
+> roscd <package_name>/urdf
+> cp <filename>.urdf <filename>.xacro
+
+### Set the /robot_description parameter from XACRO output
+> rosparam set /robot_description "'rosrun xacro xacro filename.xacro'"
 
 
