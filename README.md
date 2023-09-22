@@ -13,9 +13,11 @@ Add the URDF for the robot to default /robot_description location
 >rosparam set /robot_description -t <filename>.urdf
 Run RVIZ with the saved configuration file (run from package root)
 >rosrun rviz rviz -d config/config.rviz
+
 Make a copy of the existing URDF file
 >roscd <package_name>/urdf
 >cp <filename>.urdf <filename>.xacro
+
 Set the /robot_description parameter from XACRO output
 >rosparam set /robot_description "'rosrun xacro xacro filename.xacro'"
 
